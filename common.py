@@ -130,7 +130,7 @@ def rewrite_label_with_pll_setting(X:np.ndarray, Y:np.ndarray, positive_rate:flo
 
 
 def rewrite_label_with_mil_setting(X:np.ndarray, Y:np.ndarray, bag_size:int):
-    """Rewrite label of MNIST dataset with PLL setting.
+    """Rewrite label of MNIST dataset with MIL setting.
 
     Args:
         X (np.ndarray): Input data.
